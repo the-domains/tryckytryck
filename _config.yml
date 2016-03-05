@@ -1,28 +1,40 @@
-name: tryckytryck
-favicon: null
-layout_spectrum: 0.7806238075718284
-typography_spectrum: 0.08656640723347664
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#3C493F'
-    - '#7E8D85'
-    - '#B3BFB8'
-    - '#F0F7F4'
-    - '#A2E3C4'
-  brandStrength: 0.9853703209664673
-  lightness: 0.63205172191374
-  saturation: 0.7163648963905871
-  rhythmicContrast: 0.11963102919980884
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.7163649
+  brandStrength: 0.9853703209664673
+  lightness: 0.566595
+  brandColors:
+    - '#90A4BC'
+    - '#C6D8E8'
+    - '#1F1F17'
+    - '#775342'
+    - '#BD8976'
+  rhythmicContrast: 0.119631
+typography_spectrum: 0.8888292
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 1
+favicon: null
+name: tryckytryck
